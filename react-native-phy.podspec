@@ -9,11 +9,10 @@ Pod::Spec.new do |s|
   s.license      = package['license']
 
   s.authors      = package['author']
-  s.homepage     = "https://github.com/sumukhaPhyllo/test-package"
-  s.platform     = :ios, "11.0"
+  s.homepage     = "https://github.com/erpankajpatel/react-package-phy"
+  s.platform     = :ios, "12.0"
 
-  s.source       = { :git => "https://github.com/sumukhaPhyllo/test-package.git", :tag => "v#{s.version}" }
-  s.source_files  = "ios/*.{h,m}"
+  s.source       = { :git => "https://github.com/erpankajpatel/react-package-phy.git", :tag => "v#{s.version}" }
 
   s.dependency 'React-Core'
   s.dependency 'PhylloConnect', '~> 0.1.20'

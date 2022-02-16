@@ -1,8 +1,8 @@
 
 {
   "name": "react-native-phy",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "React Native Phyllo Connect SDK",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,16 @@
   "author": "",
   "license": "",
   "peerDependencies": {
-    "react-native": "^0.41.2",
-    "react-native-windows": "0.41.0-rc.1"
-  }
+    "react": "*",
+    "react-native": ">=0.61"
+  },
+  "devDependencies": {
+    "react-native": ">=0.61"
+  },
+  "files": [
+    "dist/**/*",
+    "android/**/*",
+    "ios/**/*",
+    "react-native-phy.podspec"
+  ]
 }
